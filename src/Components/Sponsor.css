@@ -1,0 +1,50 @@
+.last h2{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    text-align: center;
+    margin: 15px auto;
+
+
+}
+.flexbox1{
+    display: flex;
+    padding-left: 30px;
+}
+.flex1{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black ;
+    margin: 10px 25px ;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+}
+
+.img1{
+    background-image: url(../IMAGES/hp.jfif);
+    /* no-repeat center center/cover; */
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.img2{
+    background-image: url(../IMAGES/gmp.jfif);
+    /* no-repeat center center/cover; */
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.img3{
+    background-image: url(../IMAGES/tipton.jfif);
+    /* no-repeat center center/cover; */
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.img4{
+    background-image: url(../IMAGES/tru.jfif);
+    /* no-repeat center center/cover; */
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}

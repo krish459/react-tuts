@@ -1,0 +1,64 @@
+.cover{
+    width: 98%;
+    background-image: url(../IMAGES/award.jpg);
+    /* no-repeat center center/cover; */
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  opacity: 0.8;
+  
+  margin-left: 18px;
+  width: 2681.8;
+  margin-top: 0px;
+  height: 500px;
+
+}
+
+.award h2{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin: 15px auto;
+
+
+}
+.grid1{
+    display: grid;
+padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0px 0px;
+
+}
+.prize{
+    height: 70px;
+    text-align: center;
+    
+    font-size:x-large;
+    color: rgb(255, 255, 255);
+    padding-bottom: 1px;
+    
+}
+.prize:nth-child(8){
+    background-color: darkblue;
+}
+.prize:nth-child(13){
+    background-color: darkblue;
+}
+.prize:nth-child(18){
+    background-color: darkblue;
+}
+.prize:nth-child(12){
+    background-color: darkblue;
+}
+.prize:nth-child(17){
+    background-color: darkblue;
+}
+.prize:nth-child(19){
+    background-color: darkblue;
+}
+.award h3{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 15px auto;
+}

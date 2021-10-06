@@ -1,0 +1,64 @@
+.head{
+    width: 98%;
+    background-image: url(../IMAGES/main\ 2.png);
+    /* no-repeat center center/cover; */
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  opacity: 0.8;
+  
+  margin-left: 18px;
+  width: 2681.8;
+  margin-top: 0px;
+
+}
+
+.title h2{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin: 15px auto;
+
+
+}
+.grid{
+    display: grid;
+padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 9px 9px;
+
+}
+.child{
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-size:x-large;
+    color: white;
+    
+
+
+}
+.child:first-child{
+    grid-column: 1 / span 3;
+    border: 2px solid white;
+    background-color: black;
+}
+.child:nth-child(2){
+    border: 2px solid white;
+    background-color: black;
+}
+.child:nth-child(4){
+    border: 2px solid white;
+    background-color: black;
+}
+
+.child:nth-child(5){
+    grid-column: 1 / span 3;
+    border: 2px solid white;
+    background-color: black;
+}
+.child:nth-child(6){
+    grid-column: 1 / span 3;
+    border: 2px solid white;
+    background-color: black;
+}
